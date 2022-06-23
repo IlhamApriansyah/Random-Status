@@ -4,7 +4,7 @@ from telegram.ext.callbackcontext import CallbackContext
 from telegram.ext.commandhandler import CommandHandler
 from telegram.ext.messagehandler import MessageHandler
 from telegram.ext.filters import Filters
-import random
+import random as rd
 
 Status		= ['Jomblo','Menikah','Pacaran']
 Greeting	= ['Selamat Pagi','Selamat Siang','Selamat Sore','Selamat Malam']
@@ -26,17 +26,17 @@ def unknown(update: Update, context: CallbackContext):
     update.message.reply_text("Maaf, perintah '%s' tidak valid!!" % update.message.text)
 
 def bot(update: Update, context: CallbackContext):
-	update.message.reply_text(random.choice(Greeting) )
+	update.message.reply_text(rd.choice(Greeting) )
 
-	update.message.reply_text(' statusku saat ini ' +	random.choice(Status) )
+	update.message.reply_text(' statusku saat ini ' +	rd.choice(Status) )
 
-	update.message.reply_text(' jenis kelaminku adalah ' +	random.choice(Gender) )
+	update.message.reply_text(' jenis kelaminku adalah ' +	rd.choice(Gender) )
 
-	update.message.reply_text(' dan aku punya hobby ' +	random.choice(Hobby) )
+	update.message.reply_text(' dan aku punya hobby ' +	rd.choice(Hobby) )
 	
-	update.message.reply_text(' untuk saat ini, pekerjaanku ' +	random.choice(Job) )
+	update.message.reply_text(' untuk saat ini, pekerjaanku ' +	rd.choice(Job) )
 
-	update.message.reply_text(' Apapun yang sudah kamu lakukan hari ini, ' + random.choice(Quotes))
+	update.message.reply_text(' Apapun yang sudah kamu lakukan hari ini, ' + rd.choice(Quotes))
 
 	update.message.reply_text(' /reset ')
 
