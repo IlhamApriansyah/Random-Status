@@ -1,0 +1,20 @@
+{
+  "name": "random-status-api",
+  "version": "1.0.0",
+  "description": "Random Status dengan menggunakan API Telegram",
+  "main": "index.js",
+  "scripts": {
+    "libs" : "pip install python-telegram-bot",
+    "runner" : "python3 Random_Status.py"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IlhamApriansyah/Random-Status-API.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IlhamApriansyah/Random-Status-API/issues"
+  },
+  "homepage": "https://github.com/IlhamApriansyah/Random-Status-API#readme"
+}
