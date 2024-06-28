@@ -10,7 +10,11 @@ cara pemasangan :
 
 > ikuti perintah sampai selesai
 
-> gunakan API token yang didapat dan masukan kedalam kodingan
+> gunakan API token yang didapat dan masukan kedalam kode
+
+Sebelum itu, pastikan sudah membuat virtual-enviroment
+
+agar tidak bentrok dengan library python yang sudah ada
 
 > kemudian di running dengan perintah :
 
