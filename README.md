@@ -4,20 +4,23 @@ Random Status dengan menggunakan API Telegram
 
 cara pemasangan :
 
-> cari @BotFather di telegram
+- cari @BotFather di telegram
+- pilih /newbot
+- ikuti perintah sampai selesai
+- gunakan API token yang didapat dan masukan kedalam kode
 
-> pilih /newbot
+Sebelum itu, pastikan sudah membuat virtual-enviroment agar tidak bentrok dengan library python yang sudah ada
 
-> ikuti perintah sampai selesai
+(bisa menggunakan default python, tapi gak direkomendasikan)
 
-> gunakan API token yang didapat dan masukan kedalam kode
+Setelah setup selesai, gunakan perintah ini di terminal :
 
-Sebelum itu, pastikan sudah membuat virtual-enviroment
+- untuk menginstall library bot-telegram-py
+ ```bash
+npm run libs
+```
 
-agar tidak bentrok dengan library python yang sudah ada
-
-> kemudian di running dengan perintah :
-
-> "npm run libs" untuk menginstall bot-telegram-py
-
-> "npm run runner" untuk running kodingan
+- untuk menjalankan program
+```bash
+npm run runner
+```
